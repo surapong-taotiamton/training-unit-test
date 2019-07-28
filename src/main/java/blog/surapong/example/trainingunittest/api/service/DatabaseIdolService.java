@@ -1,4 +1,4 @@
-package blog.surapong.example.trainingunittest.service;
+package blog.surapong.example.trainingunittest.api.service;
 
 public class DatabaseIdolService {
 

@@ -1,8 +1,6 @@
-package blog.surapong.example.trainingunittest.service;
+package blog.surapong.example.trainingunittest.api.service;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class BasicIdolServiceTest {
 
