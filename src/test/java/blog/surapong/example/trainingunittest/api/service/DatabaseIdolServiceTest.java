@@ -3,8 +3,10 @@ package blog.surapong.example.trainingunittest.api.service;
 import blog.surapong.example.trainingunittest.api.model.Idol;
 import blog.surapong.example.trainingunittest.api.repository.IdolRepository;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.Optional;
 

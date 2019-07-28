@@ -1,6 +1,9 @@
 package blog.surapong.example.trainingunittest.api.service;
 
+import blog.surapong.example.trainingunittest.api.model.Idol;
 import blog.surapong.example.trainingunittest.api.repository.IdolRepository;
+
+import java.util.Optional;
 
 public class DatabaseIdolService {
 
@@ -11,6 +14,15 @@ public class DatabaseIdolService {
     }
 
     public String getIdol(String name) {
-        return null;
+
+        Optional<Idol> result = this.idolRepository.findById(name);
+
+        if (result.isPresent()) {
+            return result.get().getDescription();
+        } else {
+            return null;
+        }
+
+
     }
 }
